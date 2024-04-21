@@ -2,12 +2,20 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'home',
-    loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
+    path: '',
+    redirectTo: 'dawgs',
+    pathMatch: 'full',
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full',
+    path: 'dawgs',
+    loadComponent: () => import('./dawgs/dawgs.page').then( m => m.DawgsPage)
+  },
+  {
+    path: 'gatitos',
+    loadComponent: () => import('./gatitos/gatitos.page').then( m => m.GatitosPage)
+  },
+  {
+    path: 'birdies',
+    loadComponent: () => import('./birdies/birdies.page').then( m => m.BirdiesPage)
   },
 ];
