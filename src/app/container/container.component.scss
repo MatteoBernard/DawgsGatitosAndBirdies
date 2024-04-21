@@ -1,0 +1,37 @@
+.container {
+  background-color: #8DECB4;
+  height: 82vh;
+  margin: 9vh 0;
+  padding: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  font-family: Consolas, sans-serif;
+  text-align: center;
+  font-size: medium;
+  color: #141E46;
+}
+
+.imgContainer {
+  max-height: 60%;
+  width: auto;
+}
+
+img {
+  width: 101%;
+  height: 101%;
+  border-radius: 10px;
+  border: solid #141E46;
+}
+
+button {
+  bottom: 15vh;
+  padding: 2vh;
+  font-family: Consolas, sans-serif;
+  border-radius: 10px;
+  background-color: #141E46;
+  color: #8DECB4;
+}

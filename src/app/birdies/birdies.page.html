@@ -1,12 +1,5 @@
-<ion-header [translucent]="true">
-  <ion-title>Birdies</ion-title>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">birdies</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  <app-menu></app-menu>
-</ion-content>
+<div class="titleContainer">
+  <div class="title">Birdies</div>
+</div>
+<app-container [title]="'Display a random image of a birdie !'" [parentView]="'birdies'"></app-container>
+<app-menu></app-menu>

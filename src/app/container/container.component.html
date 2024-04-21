@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>{{ title }}</h2>
+  @if (imageUrl !== 'imageUrl') {
+    <div class="imgContainer">
+      <img [src]="imageUrl" alt="Image" class="image" (click)="reloadImage()" />
+    </div>
+  }
+  <button (click)="reloadImage()">Reload</button>
+</div>
