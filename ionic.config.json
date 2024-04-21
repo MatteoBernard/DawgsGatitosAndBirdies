@@ -1,0 +1,7 @@
+{
+  "name": "DawgsGatitosAndBirdies",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
