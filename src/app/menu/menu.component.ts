@@ -9,7 +9,7 @@ import {RouterLink} from "@angular/router";
   standalone: true,
   imports: [
     IonicModule,
-    RouterLink
+    RouterLink,
   ]
 })
 export class MenuComponent implements OnInit {
