@@ -9,6 +9,7 @@ Hybrid mobile app : birds, dogs and cats random images displayer.
 
 ## App
 
+### API is down :(
 This app uses this [API](https://shibe.online/) .  
 You can get random images of animals, by clicking on them.
 
